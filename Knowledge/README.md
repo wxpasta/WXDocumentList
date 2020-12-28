@@ -62,6 +62,21 @@ OOM 分为`FOOM`和`BOOM`两种类型。
 
 
 
+VO（View Object）：视图对象，用于展示层，主要用于页面展示以及将页面的数据传送给控制器。
 
+DO（Domain Object/Data Object）：一种说法是Domain Object，领域对象，是对现实生活中的抽象对象，另一种说法是Data Object，也就是数据对象，他的内容和数据库表结构一致，个人比较赞成这种说法。
 
+DTO（Data Transfer Object）：数据传输对象，主要用于Service和Manager层向外传输的对象。
+
+PO（Persistent Object）：持久化对象，它和数据库表结构一致。
+
+BO（Business Object）：业务对象，可以由Service层输出的封装业务逻辑的对象。
+
+POJO（Plain Ordinary Java Object）：一般Java对象，DO、VO、DTO等的统称。
+
+Query：数据查找对象，各层接收上层的查询对象。
+
+Entity：实体类，基本和数据库表结构一致。
+
+Domain：与POJO一样，一种对象的统称。
 
